@@ -73,7 +73,6 @@ public class Main {
       return "error";
     }
   }
-
   @Bean
   public DataSource dataSource() throws SQLException {
     if (dbUrl == null || dbUrl.isEmpty()) {
